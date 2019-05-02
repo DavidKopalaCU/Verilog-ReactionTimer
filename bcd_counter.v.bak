@@ -1,0 +1,4 @@
+module bcd_counter();
+
+endmodule
+

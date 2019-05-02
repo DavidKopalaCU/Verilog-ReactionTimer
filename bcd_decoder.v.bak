@@ -1,0 +1,7 @@
+module bcd_decoder(
+	input			[3:0]	decimal,
+	input					dot,
+	output		[7:0] hex_out
+);
+
+endmodule

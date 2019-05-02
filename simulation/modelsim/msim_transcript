@@ -1,0 +1,187 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do DE10_LITE_Reaction_Timer_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2 {Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/bcd_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:59:55 on May 02,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2" Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/bcd_decoder.v 
+# -- Compiling module bcd_decoder
+# 
+# Top level modules:
+# 	bcd_decoder
+# End time: 13:59:55 on May 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2 {Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/bcd_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:59:55 on May 02,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2" Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/bcd_counter.v 
+# -- Compiling module bcd_counter
+# 
+# Top level modules:
+# 	bcd_counter
+# End time: 13:59:55 on May 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2 {Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/clock_divider.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:59:55 on May 02,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2" Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/clock_divider.v 
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# End time: 13:59:55 on May 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2 {Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/timing_state.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:59:55 on May 02,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2" Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/timing_state.v 
+# -- Compiling module timing_state
+# 
+# Top level modules:
+# 	timing_state
+# End time: 13:59:55 on May 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2 {Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/simple_machine_3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:59:55 on May 02,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2" Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/simple_machine_3.v 
+# -- Compiling module simple_machine_3
+# 
+# Top level modules:
+# 	simple_machine_3
+# End time: 13:59:55 on May 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2 {Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/default_state.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:59:55 on May 02,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2" Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/default_state.v 
+# -- Compiling module default_state
+# 
+# Top level modules:
+# 	default_state
+# End time: 13:59:55 on May 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2 {Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/waiting_state.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:59:56 on May 02,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2" Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/waiting_state.v 
+# -- Compiling module waiting_state
+# 
+# Top level modules:
+# 	waiting_state
+# End time: 13:59:56 on May 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2 {Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/score_display_state.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:59:56 on May 02,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2" Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/score_display_state.v 
+# -- Compiling module score_display_state
+# 
+# Top level modules:
+# 	score_display_state
+# End time: 13:59:56 on May 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2 {Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/high_score_state.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:59:56 on May 02,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2" Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/high_score_state.v 
+# -- Compiling module high_score_state
+# 
+# Top level modules:
+# 	high_score_state
+# End time: 13:59:56 on May 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2 {Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/lfsr.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:59:56 on May 02,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2" Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/lfsr.v 
+# -- Compiling module lfsr
+# 
+# Top level modules:
+# 	lfsr
+# End time: 13:59:56 on May 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2 {Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/de10_lite_reaction_timer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:59:56 on May 02,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2" Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/de10_lite_reaction_timer.v 
+# -- Compiling module DE10_LITE_Reaction_Timer
+# 
+# Top level modules:
+# 	DE10_LITE_Reaction_Timer
+# End time: 13:59:56 on May 02,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim rtl_work.lfsr
+# vsim rtl_work.lfsr 
+# Start time: 13:59:59 on May 02,2019
+# Loading rtl_work.lfsr
+add wave -position end sim:/lfsr/*
+force -freeze sim:/lfsr/R 001 0
+force -freeze sim:/lfsr/L 1 0
+force -freeze sim:/lfsr/Clock 1 0
+run
+force -freeze sim:/lfsr/Clock St0 0
+force -freeze sim:/lfsr/L St0 0
+run
+force -freeze sim:/lfsr/Clock St1 0
+run
+force -freeze sim:/lfsr/Clock St0 0
+run
+force -freeze sim:/lfsr/Clock St1 0
+run
+force -freeze sim:/lfsr/Clock St0 0
+force -freeze sim:/lfsr/L St1 0
+force -freeze sim:/lfsr/R 000 0
+run
+force -freeze sim:/lfsr/Clock St1 0
+run
+force -freeze sim:/lfsr/L St0 0
+force -freeze sim:/lfsr/Clock St0 0
+run
+force -freeze sim:/lfsr/Clock St1 0
+run
+force -freeze sim:/lfsr/R 111 0
+force -freeze sim:/lfsr/L St1 0
+force -freeze sim:/lfsr/Clock St- 0
+# Invalid binary digit: S.
+# ** Error: (vsim-4011) Invalid force value: St- 0.
+# 
+force -freeze sim:/lfsr/Clock St0 0
+run
+force -freeze sim:/lfsr/Clock St1 0
+run
+force -freeze sim:/lfsr/Clock St0 0
+force -freeze sim:/lfsr/L St0 0
+run
+force -freeze sim:/lfsr/Clock St1 0
+run
+force -freeze sim:/lfsr/Clock St0 0
+noforce sim:/lfsr/Clock
+force -freeze sim:/lfsr/Clock St0 0
+run
+force -freeze sim:/lfsr/Clock St1 0
+run
+force -freeze sim:/lfsr/Clock St0 0
+run
+force -freeze sim:/lfsr/Clock St1 0
+run
+force -freeze sim:/lfsr/Clock St0 0
+run
+force -freeze sim:/lfsr/Clock St1 0
+run
+force -freeze sim:/lfsr/Clock St0 0
+run
+force -freeze sim:/lfsr/Clock St1 0
+run
+# End time: 14:03:24 on May 02,2019, Elapsed time: 0:03:25
+# Errors: 1, Warnings: 0

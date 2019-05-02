@@ -1,0 +1,10 @@
+module simple_machine_2(
+	input clk,
+	input reset,
+	
+	input			[1:0] KEY,
+	output reg [9:0] LEDR
+);
+
+endmodule
+

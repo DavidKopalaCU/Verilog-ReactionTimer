@@ -1,0 +1,253 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/simulation/modelsim
+vbcd_counter
+Z1 !s110 1556827195
+!i10b 1
+!s100 bOI@KihniI0mX`leLH[>C1
+IE[Hm7NWBaNJM20IzUc^kP3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1556823780
+8Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/bcd_counter.v
+FZ:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/bcd_counter.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1556827195.000000
+!s107 Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/bcd_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2|Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/bcd_counter.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2
+Z7 tCvgOpt 0
+vbcd_decoder
+R1
+!i10b 1
+!s100 7Anh7H0e5KlJV`>VB0KIE1
+Ie7ZEC2S8:m_GP__^1Po_Y2
+R2
+R0
+w1556823784
+8Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/bcd_decoder.v
+FZ:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/bcd_decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/bcd_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2|Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/bcd_decoder.v|
+!i113 1
+R5
+R6
+R7
+vclock_divider
+R1
+!i10b 1
+!s100 SX6kBC31SLNO2;:g0[e8I2
+I:kX`O4]b=R=e0WDRDJVJ03
+R2
+R0
+w1556687658
+8Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/clock_divider.v
+FZ:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/clock_divider.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/clock_divider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2|Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/clock_divider.v|
+!i113 1
+R5
+R6
+R7
+vDE10_LITE_Reaction_Timer
+Z8 !s110 1556827196
+!i10b 1
+!s100 lzzXmfo^5Uj=_`8?81;0L0
+IFM0^jhkF7o;1d=S`zHb`A3
+R2
+R0
+w1556823889
+8Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/de10_lite_reaction_timer.v
+FZ:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/de10_lite_reaction_timer.v
+L0 6
+R3
+r1
+!s85 0
+31
+Z9 !s108 1556827196.000000
+!s107 Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/de10_lite_reaction_timer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2|Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/de10_lite_reaction_timer.v|
+!i113 1
+R5
+R6
+R7
+n@d@e10_@l@i@t@e_@reaction_@timer
+vdefault_state
+R1
+!i10b 1
+!s100 z1[MEej:RJbjS1]<Va40W1
+I5:BoO82jOa0jmUHG0N4]^2
+R2
+R0
+w1556775696
+8Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/default_state.v
+FZ:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/default_state.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/default_state.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2|Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/default_state.v|
+!i113 1
+R5
+R6
+R7
+vhigh_score_state
+R8
+!i10b 1
+!s100 hcN]UHjdbGZLkEGnT[I5M3
+IbVOAX2Y7DM<hR<J_ge:H=3
+R2
+R0
+w1556824021
+8Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/high_score_state.v
+FZ:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/high_score_state.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/high_score_state.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2|Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/high_score_state.v|
+!i113 1
+R5
+R6
+R7
+vlfsr
+R8
+!i10b 1
+!s100 =;YECfj1H7FagQOYVOT2o0
+IHm9@FT0Ci?IFoe0b68R5m0
+R2
+R0
+w1556827131
+8Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/lfsr.v
+FZ:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/lfsr.v
+L0 31
+R3
+r1
+!s85 0
+31
+R9
+!s107 Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/lfsr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2|Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/lfsr.v|
+!i113 1
+R5
+R6
+R7
+vscore_display_state
+R8
+!i10b 1
+!s100 gzQCDONhf<of;kWG1ij[I3
+IhPJ]981KiIh4C@Po5Uj0n2
+R2
+R0
+w1556824016
+8Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/score_display_state.v
+FZ:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/score_display_state.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/score_display_state.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2|Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/score_display_state.v|
+!i113 1
+R5
+R6
+R7
+vsimple_machine_3
+R1
+!i10b 1
+!s100 M;V]0=SHc`A=3^:b_j4J:1
+IS1NMBne0BFUW_h74_bZX<3
+R2
+R0
+w1556818258
+8Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/simple_machine_3.v
+FZ:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/simple_machine_3.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/simple_machine_3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2|Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/simple_machine_3.v|
+!i113 1
+R5
+R6
+R7
+vtiming_state
+R1
+!i10b 1
+!s100 aC7Xdb=4D;JS1=bdd6n:X3
+I5DBGfjBJm_EZlObajN5;W1
+R2
+R0
+w1556775579
+8Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/timing_state.v
+FZ:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/timing_state.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/timing_state.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2|Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/timing_state.v|
+!i113 1
+R5
+R6
+R7
+vwaiting_state
+R8
+!i10b 1
+!s100 kFZzf<HcWN<RZoX?deCfC0
+INn7]YmieaZ6YNNAeJ[;?02
+R2
+R0
+w1556826678
+8Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/waiting_state.v
+FZ:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/waiting_state.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/waiting_state.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2|Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/waiting_state.v|
+!i113 1
+R5
+R6
+R7

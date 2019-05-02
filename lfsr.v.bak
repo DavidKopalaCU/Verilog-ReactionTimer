@@ -1,0 +1,4 @@
+module lfsr(
+	input 					clk,
+	output	reg	[9:0] out;
+)

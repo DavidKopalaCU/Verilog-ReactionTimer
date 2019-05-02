@@ -1,0 +1,4 @@
+module clock_divider(
+	input					clk,
+	output				div_clk
+);
