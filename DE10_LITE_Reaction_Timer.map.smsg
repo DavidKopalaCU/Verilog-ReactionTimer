@@ -1,4 +1,0 @@
-Warning (10268): Verilog HDL information at bcd_counter.v(11): always construct contains both blocking and non-blocking assignments File: Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/bcd_counter.v Line: 11
-Warning (10268): Verilog HDL information at simple_machine_3.v(60): always construct contains both blocking and non-blocking assignments File: Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/simple_machine_3.v Line: 60
-Warning (10268): Verilog HDL information at default_state.v(23): always construct contains both blocking and non-blocking assignments File: Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/default_state.v Line: 23
-Warning (10268): Verilog HDL information at score_display_state.v(25): always construct contains both blocking and non-blocking assignments File: Z:/Documents/CUBoulder/2019_Spring/ECEN2350-DigitalLogic/Project2/score_display_state.v Line: 25
