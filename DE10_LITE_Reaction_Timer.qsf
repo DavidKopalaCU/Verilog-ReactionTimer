@@ -11,7 +11,6 @@ set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:49:46 APRIL 11,2019"
 set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
 set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
 set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
-set_global_assignment -name SDC_FILE DE10_LITE_Reaction_Timer.SDC
 
 #============================================================
 # CLOCK
@@ -184,16 +183,18 @@ set_location_assignment PIN_F15 -to SW[9]
 #============================================================
 
 
-set_global_assignment -name VERILOG_FILE bcd_decoder.v
-set_global_assignment -name VERILOG_FILE bcd_counter.v
-set_global_assignment -name VERILOG_FILE clock_divider.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name VERILOG_FILE timing_state.v
-set_global_assignment -name VERILOG_FILE simple_machine_3.v
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VERILOG_FILE Project2_top.v
+set_global_assignment -name SDC_FILE DE10_LITE_Reaction_Timer.SDC
+set_global_assignment -name VERILOG_FILE bcd_decoder.v
+set_global_assignment -name VERILOG_FILE bcd_counter.v
+set_global_assignment -name VERILOG_FILE clock_divider.v
+set_global_assignment -name VERILOG_FILE timing_state.v
+set_global_assignment -name VERILOG_FILE simple_machine_3.v
 set_global_assignment -name VERILOG_FILE default_state.v
 set_global_assignment -name VERILOG_FILE waiting_state.v
 set_global_assignment -name VERILOG_FILE score_display_state.v
@@ -201,4 +202,8 @@ set_global_assignment -name VERILOG_FILE high_score_state.v
 set_global_assignment -name VERILOG_FILE lfsr.v
 set_global_assignment -name VERILOG_FILE lfsr_nine.v
 set_global_assignment -name VERILOG_FILE three_to_eight_decoder.v
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

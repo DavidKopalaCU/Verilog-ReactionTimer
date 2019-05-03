@@ -6,10 +6,12 @@ module score_display_state(
 	input				[3:0] score_a,
 	input				[3:0] score_b,
 	input				[3:0] score_c,
+	input				[3:0] score_d,
 	
 	output	wire	[7:0] HEX0,
 	output	wire	[7:0] HEX1,
 	output	wire	[7:0] HEX2,
+	output	wire	[7:0] HEX3,
 	
 	output	reg	[3:0] out_state
 );
@@ -20,6 +22,7 @@ clock_divider kc(clk, khz_clk);
 bcd_decoder(score_a, 0, HEX0);
 bcd_decoder(score_b, 0, HEX1);
 bcd_decoder(score_c, 0, HEX2);
+bcd_decoder(score_d, 1, HEX3);
 
 reg [15:0] clk_cnt;
 always @(posedge khz_clk)

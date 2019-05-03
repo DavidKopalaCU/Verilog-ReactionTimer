@@ -66,8 +66,10 @@ module DE10_LITE_Reaction_Timer(
 
 //simple_machine_2 sm2(MAX10_CLK2_50, !KEY[1], KEY, LEDR, HEX0, HEX1);
 
-
-simple_machine_3 sm2(MAX10_CLK2_50, 0, KEY, SW, LEDR, HEX5, HEX4, HEX3, HEX2, HEX1, HEX0);
+assign HEX5 = 8'hff;
+assign HEX4 = 8'hff;
+assign HEX3 = 8'hff;
+Project2_top(HEX0, HEX1, HEX2, LEDR, SW, KEY[0], KEY[1], MAX10_CLK1_50, MAX10_CLK2_50);
 
 //wire khz_clk;
 //clock_divider clk_div(MAX10_CLK2_50, khz_clk);
