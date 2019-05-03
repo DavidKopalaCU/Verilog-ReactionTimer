@@ -16,7 +16,6 @@ clock_divider clk_div(clk, khz_clk);
 
 wire [9:0]	l_out;
 lfsr l(khz_clk, l_out);
-//lfsr l(0, 0, khz_clk, l_out);
 
 always @(negedge en)
 begin

@@ -34,7 +34,7 @@ wire	[7:0] c_HEX0;
 wire	[3:0]	c_score_a;
 wire	[3:0]	c_score_b;
 wire	[3:0]	c_score_c;
-timing_state c(c_enable, clk, KEY, c_ledr, c_HEX0, c_HEX1, c_HEX2, c_score_a, c_score_b, c_score_c, c_out_state);
+timing_state c(c_enable, clk, KEY, SW, c_ledr, c_HEX0, c_HEX1, c_HEX2, c_score_a, c_score_b, c_score_c, c_out_state);
 
 reg d_enable;
 wire	[7:0] d_HEX0;
@@ -53,20 +53,18 @@ high_score_state e(e_enable, clk, KEY, c_score_a, c_score_b, c_score_c, e_HEX0, 
 bcd_decoder bs(state, 1, HEX5);
 bcd_decoder ba(10, 0, HEX4);
 bcd_decoder bb(10, 0, HEX3);
-//bcd_decoder bc(c_out_state, 1, HEX2);
-//bcd_decoder bd(d_out_state, 1, HEX1);
 
 
 always @(posedge clk) //(posedge KEY[0], posedge KEY[1])
 begin
 	if (state == 0)
-	begin
+	begin                                                                                                                                                                                                                                                                                                                      
 		a_enable <= 1;
 		b_enable <= 0;
 		c_enable <= 0;
 		d_enable <= 0;
 		e_enable <= 0;
-		if (SW[0])
+		if (1)//SW[0])
 		begin
 			if (a_out_state == 1)
 				state = 1;
@@ -82,7 +80,7 @@ begin
 		c_enable <= 0;
 		d_enable <= 0;
 		e_enable <= 0;
-		if (SW[1])
+		if (1)//SW[1])
 		begin
 			if (b_out_state == 2)
 				state <= 2;
@@ -100,7 +98,7 @@ begin
 		c_enable <= 1;
 		d_enable <= 0;
 		e_enable <= 0;
-		if (SW[2])
+		if (1)//SW[2])
 		begin
 			if (c_out_state == 3)
 				state <= 3;
@@ -116,15 +114,13 @@ begin
 		c_enable <= 0;
 		d_enable <= 1;
 		e_enable <= 0;
-		if (SW[3])
+		if (1)//SW[3])
 		begin
 			if (d_out_state == 4)
 				state <= 4;
 			else
 				state <= 3;
 		end
-//		state <= d_out_state;
-//		state <= 2;
 	end
 	else if (state == 4)
 	begin

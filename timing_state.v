@@ -3,6 +3,7 @@ module timing_state(
 	input 					clk,
 	
 	input				[1:0]	KEY,
+	input				[9:0] SW,
 	
 	output	reg	[9:0] LEDR,
 	
@@ -36,6 +37,13 @@ bcd_decoder da(cnt_a, 0, HEX0);
 bcd_decoder db(cnt_b, 0, HEX1);
 bcd_decoder dc(cnt_c, 0, HEX2);
 
+wire 	[2:0] l_out;
+reg	[3:0] l_mem;
+lfsr_nine lnine(khz_clk, l_out);
+
+wire [7:0] eight_dec;
+three_to_eight_decoder ted(l_mem, eight_dec);
+
 always @(negedge en)
 begin
 	score_a <= cnt_a;
@@ -46,11 +54,16 @@ end
 always @(posedge clk)
 begin
 	if (en)
-		LEDR <= 10'h3ff;
+//		LEDR <= 10'h3ff;
+		LEDR <= { 2'd0, eight_dec };
 	else
+	begin
 		LEDR <= 0;
+		l_mem <= l_out;
+	end
 end
 
-assign out_state = (en && !KEY[0]) ? 3 : 2;
+assign out_state = (en && (SW == { 2'd0, eight_dec })) ? 3 : 2;
+//assign out_state = (en && !KEY[0]) ? 3 : 2;
 
 endmodule

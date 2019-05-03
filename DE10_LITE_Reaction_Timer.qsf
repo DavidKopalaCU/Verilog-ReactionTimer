@@ -199,4 +199,6 @@ set_global_assignment -name VERILOG_FILE waiting_state.v
 set_global_assignment -name VERILOG_FILE score_display_state.v
 set_global_assignment -name VERILOG_FILE high_score_state.v
 set_global_assignment -name VERILOG_FILE lfsr.v
+set_global_assignment -name VERILOG_FILE lfsr_nine.v
+set_global_assignment -name VERILOG_FILE three_to_eight_decoder.v
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
